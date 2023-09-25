@@ -7,6 +7,7 @@
 - Библиотеки для python3: <b>aiogram, mysql-connector-python, aiohttp, bs4, asyncio, lxml, getpass, time, shutil, os, json, fpdf2, re, datetime, aiofiles</b>
 
 # Установка
+<b>ПЕРЕД НИЖЕПЕРЕЧИСЛЕННЫМИ ДЕЙСТВИЯМИ САМО-СОБОЙ РАЗУМЕЕТСЯ НАЛИЧИЕ СОЗДАННОГО ВАМИ ТЕЛЕГРАМ БОТА</b>
 
 1. Устанавливаем python 3.8+ с оф. сайта с пунктом <b>ADD PYTHON TO PATH</b>. Устанавливаем все необходимые библиотеки - для этого переходим в директорию с файлами бота и пишем в консоле <b>pip3 install -r requirements.txt</b> (должен быть pip)
 2. Устанавливаем mysql server на сервер/пк для бота.  Создаем пользователя с полными правами
