@@ -27,8 +27,9 @@ def set_settings():
         mysql_login = input('\t[+] Введите логин пользователя mysql: ').split()
         mysql_password = getpass(prompt='\t[+] Введите пароль для пользователя mysql с прошлого шага. (Если доступ к бд осуществляется без пароля, пожалуйста, добавьте пароль): ').split()
         mysql_host = input('\t[+] Введите хост с работающим mysql server (для локального сервера укажите - "localhost"): ').split()
+        mysql_host_port = input('\t[+] Введите порт хоста с работающим mysql server: ').split()
         mysql_db_name = input('\t[+] Введите название базы данных для бота (Читайте руководство на GitHub): ').split()
-        mydict = {"bot": {"token": bot_token}, "mysql": {"login": mysql_login, "password": mysql_password, "host": mysql_host, "db_name": mysql_db_name}}
+        mydict = {"bot": {"token": bot_token[0]}, "mysql": {"login": mysql_login[0], "password": mysql_password[0], "host": mysql_host[0], "port": int(mysql_host_port[0]), "db_name": mysql_db_name[0]}}
         with open('config.json', 'w', encoding='utf-8') as f:
             json.dump(mydict, f, indent=4, ensure_ascii=False)
         print('[INFO] Первичная настройка успешно окончена! Если вы ошиблись в данных, то просто удалите конфигурационный файл "config.json" и заново запустите бота для новой настройки. Удачного использования!')

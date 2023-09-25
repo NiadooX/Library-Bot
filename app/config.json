@@ -1,0 +1,12 @@
+{
+    "bot": {
+        "token": "dsa"
+    },
+    "mysql": {
+        "login": "dsa",
+        "password": "dadsa",
+        "host": "dsa",
+        "port": 3306,
+        "db_name": "dasda"
+    }
+}
