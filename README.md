@@ -2,8 +2,8 @@
 Телеграм бот для скачивания книг с различных сайтов
 
 # Использованные технологии
-- python 3.8+
-- mysql 8.0+
+- <b>python 3.8+</b>
+- <b>mysql 8.0+</b>
 - Библиотеки для python3: <b>aiogram, mysql-connector-python, aiohttp, bs4, asyncio, lxml, getpass, time, shutil, os, json, fpdf2, re, datetime, aiofiles</b>
 
 # Установка
